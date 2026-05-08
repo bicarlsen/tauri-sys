@@ -21,9 +21,7 @@
 This crate is not yet published to crates.io, so you need to use it from git. You also need a global installation of [`esbuild`].
 
 ```toml
-tauri-sys = { git = "https://github.com/JonasKruckenberg/tauri-sys" } // tauri v1 api, main repo
-// OR
-tauri-sys = { git = "https://github.com/JonasKruckenberg/tauri-sys", branch = "v2" } // tauri v2 api
+tauri-sys = { git = "https://github.com/JonasKruckenberg/tauri-sys" } // tauri v2 api
 ```
 
 ## Usage
